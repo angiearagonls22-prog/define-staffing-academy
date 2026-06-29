@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Define Staffing Academy</title>
 
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+      background: rgba(255,255,255,0.05);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      backdrop-filter: blur(10px);
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 20px;
+      border-radius: 20px;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0f172a;
+      font-weight: bold;
+      font-size: 14px;
+      overflow: hidden;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    p {
+      opacity: 0.8;
+      font-size: 14px;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LOGO (TEMPORAL) -->
+    <div class="logo">
+      <!-- Cuando subas tu logo, reemplaza esto -->
+      <span>LOGO</span>
+      <!-- Ejemplo futuro:
+      <img src="assets/img/logo.png" alt="Logo">
+      -->
+    </div>
+
+    <h1>Define Staffing Academy</h1>
+    <p>Plataforma de gestión académica y operativa</p>
+
+    <button class="btn" onclick="location.href='dashboard.html'">
+      Ingresar
+    </button>
+
+  </div>
+
+</body>
+</html>
